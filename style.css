@@ -1,0 +1,190 @@
+.navigation {
+    background: #2e294e;
+    padding: 15px;
+    padding-left: 120px;
+    overflow: auto;
+    
+    
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: left;
+    float: left;
+    line-height: 50px;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    align-content: left;
+    
+
+}
+
+.btn-small {
+    border-style: solid;
+    border-width: 3px;
+    padding: 7px;
+    
+    align-content: left;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #f5f1ed;
+
+}
+
+* {
+    font-family: 'b612regular';
+    
+    
+    margin: 0 auto;
+}
+
+body {
+
+   
+
+}
+
+.main {
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px;
+    background: #70798c;
+    text-align: left;
+    
+    
+}
+.main p
+{
+    color: #f5f1ed;
+    font-size: 25px;
+    text-align: left;
+    
+}
+.main img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.main h1
+{
+    font-size: 75px;
+    color: #f5f1ed;
+    
+
+}
+.main h2
+{
+    font-size: 35px;
+    color: #f5f1ed;
+    
+
+}
+
+@font-face {
+    font-family: 'b612regular';
+    src: url('fonts/b612/b612-regular-webfont.woff2') format('woff2'),
+         url('fonts/b612/b612-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.sciencestuff
+{
+    float: right;
+    
+    border: 4px solid #2E294E;
+    
+    background: #e68619;
+    text-align: center;
+    line-height: 20px;
+    max-width: 300px;
+    
+}
+
+.tablealign
+{
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    clear: right;
+    
+}
+.sciencestuff th
+{
+    text-align: center;
+    padding: 5px;
+}
+
+.sciencestuff hr
+{
+    border-color: #2E294E;
+    
+    border-width: 2px;
+    align-items: center;
+}
+
+.CO2
+{
+     background-image: url('images/CO2.gif');
+    background-size: 200%;
+    background-position: center;
+}
+
+.H2O
+{
+    background-image: url(images/H2O.gif);
+    background-size: 300%;
+    background-position: center;
+}
+.main hr
+{
+    border-color: #2E294E;
+    display: block;
+    border-width: 2px;
+    align-items: center;
+    border-style: inset;
+}
+
+.N2O
+{
+   background-image: url(images/N2O.gif);
+   background-size: 200%;
+   background-position: center;
+}
+
+.O3
+{
+    background-image: url(images/O3.gif);
+    background-position: center;
+    background-size: 200%;
+}
+.HFC
+{
+    background-image: url(images/HCFC&CFC.gif);
+    background-size: 200%;
+    background-position: center;
+}
+
+.CH4
+{
+    background-image: url(images/CH4.gif);
+    background-position: center;
+    background-size: 200%;
+}
+.home
+{
+     background: #70798c;
+}
+
