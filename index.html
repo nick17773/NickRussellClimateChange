@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Climate Change</title>
-    <link media="screen and (min-device-width: 481px)" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/scrollbtn.js"></script>
+    <script src="scripts/slideshow.js"></script>
+
+
 </head>
 
 <body class="home">
@@ -42,12 +47,78 @@
         <hr>
         <br>
         <p>Greenhouse gases warm the atmosphere by absorbing some of the thermal radiation released from the Earth's surface. Incoming solar radiation is transferred to the Earth's surface through the atmosphere. Instead of being transferred back to space, some of the thermal radiation is absorbed by greenhouse gases, and the atmosphere is warmed up. Due to human operations, greenhouse gas levels in the environment are growing. The major greenhouse gases directly affected by human activity are carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), chlorofluorocarbons (CFCs), hydrofluorocarbons (HCFCs) and ozone (O3). Water vapor (H2O) is a major greenhouse gas as well.
-        This website will explain the major greenhouse gases, where they come from, the impact of each on the environment, and what can be done to reduce their damage.
-        <br>
-        <br>Below is a graph that shows the overall percentages of greenhouse gas emissions:
-        <br>
-        <br><img src="images/Capture.PNG">
-        <br>
+            This website will explain the major greenhouse gases, where they come from, the impact of each on the environment, and what can be done to reduce their damage.
+            <br>
+            <br>Below is a graph that shows the overall percentages of greenhouse gas emissions:
+            <br>
+            <br><img src="images/Capture.PNG">
         </p>
+        <br>
+        <hr>
+        <div>
+            <h1>Glaciers</h1>
+        <br>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+             <div class="mySlides fade">
+                <div class="numbertext">1 / 6</div>
+                    <img src="images/20190718_104402.jpg" style="width:100%; transform:rotate(180deg);">
+                <div class="text">Glacier 1</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                    <img src="images/20190719_182732.jpg" style="width:100%; transform:rotate(180deg);">
+                <div class="text">Glacier 2</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                    <img src="images/20190719_183003.jpg" style="width:100%">
+                <div class="text">Glacier 3</div>
+            </div>
+            
+           
+           
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                    <img src="images/20190719_183455.jpg" style="width:100%">
+                <div class="text">Glacier 4</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                    <img src="images/IMG_20190718_190900955_HDR.jpg" style="width:100%">
+                <div class="text">Glacier 5</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                    <img src="images/IMG_20190720_022955741_HDR.jpg" style="width:100%">
+                <div class="text">Glacier 6</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+           
+            
+        </div>
     </div>
-</body></html>
+</div>
+
+</body>
+<footer><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button></footer></html>

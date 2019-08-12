@@ -1,7 +1,7 @@
 .navigation {
     background: #2e294e;
-    padding: 15px;
-    padding-left: 120px;
+    padding: 1vmax;
+    padding-left: 4.5vmax;
     overflow: auto;
     
     
@@ -9,11 +9,11 @@
 
 .navigation ul li {
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.5vmax;
+    padding-right: 0.5vmax;
     align-content: left;
     float: left;
-    line-height: 50px;
+    line-height: 4vmax;
 
 }
 
@@ -33,7 +33,7 @@
 }
 
 a {
-    font-size: 20px;
+    font-size: 1vmax;
     text-decoration: none;
     color: #f5f1ed;
 
@@ -41,7 +41,7 @@ a {
 
 * {
     font-family: 'b612regular';
-    
+    font-size: 1vmax;
     
     margin: 0 auto;
 }
@@ -54,8 +54,8 @@ body {
 
 .main {
     
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 9vmax;
+    margin-right: 9vmax;
     padding: 20px;
     background: #70798c;
     text-align: left;
@@ -65,7 +65,7 @@ body {
 .main p
 {
     color: #f5f1ed;
-    font-size: 20px;
+    font-size: 1vmax;
     text-align: left;
     
 }
@@ -74,18 +74,18 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 45%;
 }
 .main h1
 {
-    font-size: 70px;
+    font-size: 3vmax;
     color: #f5f1ed;
     
 
 }
 .main h2
 {
-    font-size: 30px;
+    font-size: 1.5vmax;
     color: #f5f1ed;
     
 
@@ -108,8 +108,8 @@ body {
     
     background: #e68619;
     text-align: center;
-    line-height: 20px;
-    max-width: 300px;
+    line-height: 1vmax;
+    max-width: 20vmax;
     
 }
 
@@ -119,6 +119,7 @@ body {
     margin: 10px;
     float: right;
     clear: right;
+    
     
 }
 .sciencestuff th
@@ -138,7 +139,7 @@ body {
 .CO2
 {
      background-image: url('images/CO2.gif');
-    background-size: 200%;
+    background-size: cover;
     background-position: center;
 }
 
@@ -190,4 +191,127 @@ body {
 html
 {
     -webkit-text-size-adjust: none;
+}
+
+.glaciers img
+{
+    width: 45%;
+  
+    margin-left: auto;
+    margin-right: auto;
+    height: 45%;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #2e294e; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50vmax;
+  max-height: 50vmax;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -2vmax;
+  padding: 1vmax;
+  color: white;
+  font-weight: bold;
+  font-size: 1vmax;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1.5vamx 0 0 1.5vmax;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 0.75vmax;
+  padding: 0.75vmax 0.75vmax;
+  position: absolute;
+  bottom: 1vmax;
+  width: 48.5vmax;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 1vmax;
+  padding: 0.5vmax 0.5vmax;
+  position: absolute;
+  top: 0;
+display: block;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 0.1vmax;
+  background-color: #bbb;
+  border-radius: 0.5vmax;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
