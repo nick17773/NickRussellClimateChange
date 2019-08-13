@@ -315,3 +315,6 @@ display: block;
   from {opacity: .4} 
   to {opacity: 1}
 }
+.slideimg img{
+    width: 100%;
+}
